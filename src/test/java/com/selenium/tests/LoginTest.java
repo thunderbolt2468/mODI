@@ -15,7 +15,7 @@ public class LoginTest {
     public void setup() {
         // Set the path to your ChromeDriver
         System.setProperty("webdriver.chrome.driver",
-                "E:/SeleniumTestProject/SeleniumTestProject/chrome.exe");
+                "E:/SeleniumTestProject/SeleniumTestProject/chromedriver.exe");
 
         // Initialize the WebDriver
         driver = new ChromeDriver();
