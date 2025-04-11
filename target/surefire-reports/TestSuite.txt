@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 20.828 s <<< FAILURE! - in TestSuite
+setup(com.selenium.tests.LoginTest)  Time elapsed: 20.643 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'AIDS210-13', ip: '192.168.56.1'
+	at com.selenium.tests.LoginTest.setup(LoginTest.java:21)
+Caused by: org.openqa.selenium.WebDriverException: 
+Timed out waiting for driver process to start.
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: driver.version: ChromeDriver
+	at com.selenium.tests.LoginTest.setup(LoginTest.java:21)
+
